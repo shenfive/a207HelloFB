@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		BA04BFCA25032C3800FE5637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFC825032C3800FE5637 /* Main.storyboard */; };
 		BA04BFCC25032C3A00FE5637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFCB25032C3A00FE5637 /* Assets.xcassets */; };
 		BA04BFCF25032C3A00FE5637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFCD25032C3A00FE5637 /* LaunchScreen.storyboard */; };
+		BA04BFD72503332400FE5637 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA04BFD62503332400FE5637 /* File.swift */; };
+		BB4F78C2BA49900EA7A19E2F /* Pods_a207HelloFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ADB3C837AF543713D8AC7A /* Pods_a207HelloFB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37D92435C939847A1F755F80 /* Pods-a207HelloFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a207HelloFB.release.xcconfig"; path = "Target Support Files/Pods-a207HelloFB/Pods-a207HelloFB.release.xcconfig"; sourceTree = "<group>"; };
+		9AD8A59E5AA416C2FEC3B44E /* Pods-a207HelloFB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a207HelloFB.debug.xcconfig"; path = "Target Support Files/Pods-a207HelloFB/Pods-a207HelloFB.debug.xcconfig"; sourceTree = "<group>"; };
 		BA04BFBF25032C3800FE5637 /* a207HelloFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a207HelloFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA04BFC225032C3800FE5637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA04BFC425032C3800FE5637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		BA04BFCB25032C3A00FE5637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA04BFCE25032C3A00FE5637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA04BFD025032C3A00FE5637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA04BFD62503332400FE5637 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C5ADB3C837AF543713D8AC7A /* Pods_a207HelloFB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a207HelloFB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4F78C2BA49900EA7A19E2F /* Pods_a207HelloFB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B49E57F36CF974A7AC54BCED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADB3C837AF543713D8AC7A /* Pods_a207HelloFB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA04BFB625032C3800FE5637 = {
 			isa = PBXGroup;
 			children = (
 				BA04BFC125032C3800FE5637 /* a207HelloFB */,
 				BA04BFC025032C3800FE5637 /* Products */,
+				C9F6DB79379EC132C122A5B5 /* Pods */,
+				B49E57F36CF974A7AC54BCED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,18 @@
 				BA04BFCB25032C3A00FE5637 /* Assets.xcassets */,
 				BA04BFCD25032C3A00FE5637 /* LaunchScreen.storyboard */,
 				BA04BFD025032C3A00FE5637 /* Info.plist */,
+				BA04BFD62503332400FE5637 /* File.swift */,
 			);
 			path = a207HelloFB;
+			sourceTree = "<group>";
+		};
+		C9F6DB79379EC132C122A5B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD8A59E5AA416C2FEC3B44E /* Pods-a207HelloFB.debug.xcconfig */,
+				37D92435C939847A1F755F80 /* Pods-a207HelloFB.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA04BFD325032C3A00FE5637 /* Build configuration list for PBXNativeTarget "a207HelloFB" */;
 			buildPhases = (
+				637A0F91CC78A8FD695C8248 /* [CP] Check Pods Manifest.lock */,
 				BA04BFBB25032C3800FE5637 /* Sources */,
 				BA04BFBC25032C3800FE5637 /* Frameworks */,
 				BA04BFBD25032C3800FE5637 /* Resources */,
+				64A9CE7A60E723001C001711 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		637A0F91CC78A8FD695C8248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-a207HelloFB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A9CE7A60E723001C001711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a207HelloFB/Pods-a207HelloFB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a207HelloFB/Pods-a207HelloFB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-a207HelloFB/Pods-a207HelloFB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA04BFBB25032C3800FE5637 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA04BFC725032C3800FE5637 /* ViewController.swift in Sources */,
+				BA04BFD72503332400FE5637 /* File.swift in Sources */,
 				BA04BFC325032C3800FE5637 /* AppDelegate.swift in Sources */,
 				BA04BFC525032C3800FE5637 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +354,7 @@
 		};
 		BA04BFD425032C3A00FE5637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD8A59E5AA416C2FEC3B44E /* Pods-a207HelloFB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		BA04BFD525032C3A00FE5637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D92435C939847A1F755F80 /* Pods-a207HelloFB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
