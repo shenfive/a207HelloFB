@@ -13,6 +13,7 @@
 		BA04BFCA25032C3800FE5637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFC825032C3800FE5637 /* Main.storyboard */; };
 		BA04BFCC25032C3A00FE5637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFCB25032C3A00FE5637 /* Assets.xcassets */; };
 		BA04BFCF25032C3A00FE5637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFCD25032C3A00FE5637 /* LaunchScreen.storyboard */; };
+		BA04BFD925033E1300FE5637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA04BFD825033E1300FE5637 /* GoogleService-Info.plist */; };
 		BB4F78C2BA49900EA7A19E2F /* Pods_a207HelloFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ADB3C837AF543713D8AC7A /* Pods_a207HelloFB.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		BA04BFCB25032C3A00FE5637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA04BFCE25032C3A00FE5637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA04BFD025032C3A00FE5637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA04BFD825033E1300FE5637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5ADB3C837AF543713D8AC7A /* Pods_a207HelloFB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a207HelloFB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				BA04BFC225032C3800FE5637 /* AppDelegate.swift */,
+				BA04BFD825033E1300FE5637 /* GoogleService-Info.plist */,
 				BA04BFC425032C3800FE5637 /* SceneDelegate.swift */,
 				BA04BFC625032C3800FE5637 /* ViewController.swift */,
 				BA04BFC825032C3800FE5637 /* Main.storyboard */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA04BFCF25032C3A00FE5637 /* LaunchScreen.storyboard in Resources */,
+				BA04BFD925033E1300FE5637 /* GoogleService-Info.plist in Resources */,
 				BA04BFCC25032C3A00FE5637 /* Assets.xcassets in Resources */,
 				BA04BFCA25032C3800FE5637 /* Main.storyboard in Resources */,
 			);
